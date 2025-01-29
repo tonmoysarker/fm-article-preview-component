@@ -3,12 +3,16 @@
   max-width: 60rem;
   --grid-placement: auto-fit;
   padding: 0;
-  overflow: hidden;
   background-color: white;
   border-radius: var(--step-0);
 
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
 
+  picture {
+    overflow: hidden;
+    border-top-left-radius: var(--step-0);
+    border-bottom-left-radius: var(--step-0);
+  }
   .article-card__image > img {
     height: 100%;
   }
@@ -22,7 +26,7 @@
       width: 4em;
       border-radius: 50%;
     }
-    > button {
+    .article-card__share-button {
       border: none;
       cursor: pointer;
       background-color: var(--light-greyish-blue);
@@ -39,7 +43,7 @@
       transition: all 0.3s ease;
     }
 
-    > button:hover {
+    .article-card__share-button:hover {
       background-color: var(--very-dark-grey-blue);
       color: white;
     }

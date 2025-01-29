@@ -24,6 +24,11 @@
   /* extras  */
 
   --gutter: var(--step-2);
+
+  --tooltip-text-color: white;
+  --tooltip-background-color: var(--very-dark-grey-blue);
+  --tooltip-margin: 1.75rem;
+  --tooltip-arrow-size: 0.4rem;
 }
 
 body {
